@@ -1,8 +1,17 @@
 {
-  "users": {
-    "id": 1,
-    "username": "devanir",
-    "password": "123devanir123",
-    "email": "devanir123@gmail.com"
+  "200": 
+    {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJkZXZhbmlyIiwicGFzc3dvcmQiOiIxMjNkZXZhbmlyMTIzIiwiZW1haWwiOiJkZXZhbmlyMTIzQGdtYWlsLmNvbSJ9.2sPdkh8Up2QVMTdH8fTK5ukhiPW2hncwq6Q2AtqlDwM"
+  },
+  
+  "401":
+  {
+"error": "Invalid Password."
+},
+  "500":
+  {
+  
+   "error":"Internal issue, try again later"
   }
+
 }
